@@ -1,11 +1,6 @@
 server:
   port: 10100
 
-# 把自己注册到eureka中
-eureka:
-  client:
-    service-url:
-      defaultZone: http://admin:wd$123456@localhost:9990/eureka
 
 feign:
   hystrix:
