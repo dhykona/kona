@@ -95,11 +95,6 @@ mybatis-plus:
     # 下面这句会将SQL语句完整的输出至控制台
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 
 # 部门编码、区域编码会用到：A0001A0002A0003
 youBianCodeUtil:
